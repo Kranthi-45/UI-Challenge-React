@@ -1,0 +1,144 @@
+/* Desktop View */
+.number2 {
+  left: -20px;
+  top: 0px;
+}
+#showcase2-container .section-left{
+  padding: 20px 20px 10px 0px;
+}
+#showcase2-container .showcase .subColContiners{
+  position: relative;
+  width: 30%;
+  left: 230px;
+  top: -20px;
+  margin: -100px 500px;
+}
+#showcase2-container .showcase .subColContiners.txtContainer{
+  position: relative;
+  width: 40% !important;
+  left: 230px !important;
+  top: -20px !important;
+  margin: -100px 350px !important;
+}
+#showcase2-container .showcase .subColContiners .showcase1pic .img{
+  position: relative;
+  width: 150%;
+  left: -220px;
+  top: -200px;
+}
+#showcase2-container {
+  padding-top: 60px;
+  background-color: #ffffff;
+  width: 100%;
+  clear: both;
+}
+#showcase2-container div.showcase {
+  width: 80%;
+  margin: auto;
+  overflow: none;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  padding: 100px 0px;
+}
+#showcase2-container div.showcase .feature-text {
+  padding-top: 0px;
+  padding-left: 50px;
+}
+#showcase2-container div.showcase .showdowImage {
+  position: relative !important;
+  top: -100px !important;
+  margin-left: 250px !important;
+  width: 50%;
+}
+#showcase2-container div.showcase .showcase1pic {
+  width: 50%;
+  margin: 0px 0px;
+}
+.showcase1pic.img{
+  position: relative;
+  width: 100% !important;
+  margin-right: 0px; 
+  top: -200px;
+}
+
+/* Tab View - 769px */
+@media only screen and (min-width: 765px) and (max-width: 980px) {
+  #showcase2-container {
+    padding-top: 120px;
+  }
+  .number2 {
+    left: 120px;
+    top: 50px;
+  }
+  #showcase2-container .section-left {
+    padding: 10px 20px 10px 0px;
+  }
+  .mobfeaturetext{
+    margin-top: 0px;
+  }
+  #showcase2-container .showcase .subColContiners.txtContainer {
+    position: relative;
+    width: 45% !important;
+    left: 350px !important;
+  }
+  #showcase2-container div.showcase .showdowImage {
+    position: relative !important;
+    top: -100px !important;
+    margin-left: 350px !important;
+    width: 100%;  
+  }
+  .showcase1pic.img {
+    position: relative;
+    width: 180% !important;
+    margin-right: 0px;
+    top: -200px;
+    left: 140px;
+  }
+}
+
+/* Mobile View - 376px */
+@media only screen and (max-width: 767px){
+   .showdowImage{
+    display: none;
+   }
+   #showcase2-container div.showcase {
+    width: 80%;
+    padding: 120px 0px;
+    padding-bottom: 350px;
+}
+#showcase2-container .showcase .subColContiners.txtContainer {
+  position: relative;
+  width: 100% !important;
+  left: 350px !important;
+  top: 250px !important;
+  margin: -100px 350px !important;
+}
+#showcase2-container .showcase .subColContiners {
+    position: relative;
+    width: 30%;
+    left: 230px;
+    top: -20px;
+    margin: -100px 500px;
+}
+.showcase1pic.img {
+  width: 400% !important;
+  margin-right: 0px;
+  top: 50px;
+  left: 30px;
+}
+.number2 {
+  left: 70px;
+  top: -120px;
+}
+  #showcase2-container div.showcase .showcase1pic {
+    margin: 0px;
+  }
+  .mobfeaturetext{
+      padding-left: 0px;
+  }
+  #showcase2-container div.showcase .mobfeaturetext{
+      padding-left: 0px;
+  }
+
+}

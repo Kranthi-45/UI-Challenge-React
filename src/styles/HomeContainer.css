@@ -1,0 +1,264 @@
+.tryIt{
+    width: 80%;
+    margin: 60px auto;
+    text-align: center;
+    margin-top: 350px;
+  }
+  .tryIt .loginBtn{
+    border:3px solid #EF8094;
+  }
+#feature-section{
+    padding: 30px;
+}
+.feature-section-title {
+    width: 70%;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.5em;
+    margin: auto;
+}
+.underline{
+    margin-top: -60px;
+}
+.subColContiners {
+    float: left;
+    width: 48%;
+}
+#showcase1-container {
+    padding-top: 60px;
+    background-color: #f6f8fa;
+    width: 100%;
+    clear: both;
+}
+.showcase{  
+    width: 80%;
+    margin: auto;
+    overflow: none;
+}
+.showcase1pic {
+    width: 100%;
+}
+.section-title {
+    width: 70%;
+    margin: auto;
+    font-weight: 200;
+    line-height: 1.5em;
+}
+.section-left {
+    width: 70%;
+    padding: 20px 10px 10px 10px;
+    margin: auto;
+    color: #000000;
+}
+#showcase2-container {
+    padding-top: 60px;
+    background-color: #ffffff;
+    width: 100%;
+    clear: both;
+}
+.loginBtn{
+    background-color: whitesmoke;
+    border-radius: 28px;
+    color: black;
+    padding: 10px 26px;
+    border: 3px solid #dc3545;
+    text-align: center;
+    font-weight: 500;
+  }
+  .homeComp.loginBtn{
+    width: 25%;
+  }
+.left-container{
+    width: 80%;
+    margin-left: auto;
+}
+#top-section-main {
+    border: none;
+    background-image: url(../../public/assets/box.png), url(../../public/assets/box-art.png);
+    background-color: #F5F8FF;
+    background-position: 100% top,right top;
+    background-size: 58% , 15%;
+    background-repeat: no-repeat, no-repeat;
+    height: 430px;
+    border: none;
+}
+#top-section-content {
+    width: 50%;
+    margin-top: 0px;
+    font-family: DM Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+  .homeComp.loginBtn {
+    border: 3px solid #EF8094;
+}
+  #top-section-content h1 {
+      font-size: 4em;
+      font-weight: 300;
+      color: black;
+      margin-top: 0px;
+      padding-top: 100px;
+      margin-bottom: 15px;
+      font-family: DM Serif Text;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+        letter-spacing: 0em;
+        text-align: left;
+  } 
+  #top-section-content p {
+      font-size: 1.3em;
+      font-weight: 400;
+      color: black;
+      margin-top: 0px;
+  } 
+  .play-button {
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      padding-top: 50px 0px 110px 0px;
+  }
+  .main-form h6 {
+      font-family: sans-serif;
+      font-size: .9em;
+      font-weight: 100;
+      color: #ffffff;
+      text-align: center;
+  }
+  .main-form input {
+      margin: 0;
+      width: 30%;
+      height: 40px;
+      font-family: sans-serif;
+      font-size: .9em;
+      padding-left: 15px;
+      font-weight: 100;
+      border: none;
+  }
+  .main-form button {
+      width: 30%;
+      height: 42px;
+      font-family: sans-serif;
+      font-size: .9em;
+      padding-left: 15px;
+      font-weight: 100;
+      color: #ffffff;
+      background-color: #6dc77a;
+      border: none;
+  }
+
+/* Tab View - 769px */
+@media only screen and (min-width: 765px) and (max-width: 980px) {
+    .homeComp.loginBtn {
+        width: 40%;
+    }
+    .loginBtn{
+        width: 100%;
+    }
+    #top-section-content h1 {
+        padding-top: 0px;
+    }
+    #top-section-content {
+        width: 60%;
+    }
+    .left-container {
+        width: 80%;
+        margin-left: 40px;
+    }
+     div.left-container p{
+        font-style: normal;
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 16px;
+        letter-spacing: 0.01em;
+    }
+    #top-section-main{
+        background-image: url(../../public/assets/box.png);
+        background-position: 250px 100px,right top;
+        background-size: 80% , 15%;
+        height: 430px;
+    }  
+}
+
+/* Mobile View - 376px */
+@media only screen and (max-width: 767px){
+    .tryIt {
+        margin: 50px auto;
+        margin-top: 580px;
+    }
+    .tryIt .loginBtn{
+            margin: 3px 0px 20px 0px;
+    }
+    #top-section-content h1 {
+        font-family: 'DM Serif Text';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+    }
+    #top-section-content p{
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        letter-spacing: 0.01em;
+    }
+    #top-section-main  {
+        background-color: #F5F8FF;
+        background-position: 56% 500px,right top;
+        background-size: 165% , 1%;
+        height: 860px;
+    }
+    .homeComp.loginBtn {
+        width: 50%;
+        margin: 3px 0px 20px 0px !important
+    }
+    .subColContiners {
+        float: left;
+        width: 100%;
+    }
+  .feature-text{
+    padding-top: 0px;
+    padding-left: 0px;
+}
+  .section-title{
+    width: 80%;
+    margin: 0px;
+    line-height: 1.0em;
+    font-weight: 350;
+  }
+  .section-left {
+    width: 100%;
+    margin: 0px;
+  }
+  #top-section-content{
+    width: 100%;
+    margin-top: 0px;
+}
+  .left-container{
+    width: 80%;
+    margin: auto;
+}
+  #top-section-content h1{
+    width: 100%;
+    font-weight: 300;
+    color: black;
+    margin-top: 0px;
+    padding: 40px 0px 20px 0px;
+    margin-bottom: 0px;
+}
+#top-section-content .left-container h1{
+    color: black;
+}
+  .loginBtn{
+    width: 55%;
+    margin: 35px 0px 20px 0px;
+}
+.feature-section-title{
+    width: 100%;
+}
+}
