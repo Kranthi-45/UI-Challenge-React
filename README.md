@@ -3,8 +3,8 @@ Used Technologies versions:
      react version  -> 12.1.1;
      Node           -> 14.16.0;
      
-To Run
-     -> Import the project in IDE & open the cmd/terminal in the appropriate directory where node_modules or src available & hit below commands;  
+To Run    
+     -> Import the project in IDE & open the cmd/terminal in the appropriate directory where node_modules or src available & hit below commands;   
      -> npm install;  
      -> npm start;  
 1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels
