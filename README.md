@@ -7,7 +7,7 @@ To Run:
      -> import the proj in IDE & open the cmd/terminal in the appropriate directory where node_modules/src available & hit below cmds;   
      -> npm install;  
      -> npm start;  
-1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels
+1) Views: Created the Upbox website in 3 different views as per given UI Figma wireframe view pixels;    
        -> Desktop view;      
        ->Tab view - 376px;     
        ->Mobile view - 768px;   
